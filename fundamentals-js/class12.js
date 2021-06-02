@@ -10,8 +10,8 @@ const otherWorker = {
     schedule: '9:00 - 18:00',
 }
 
-function isAdult(sameFirstWorker) {
-    return sameFirstWorker.age >= 18
+function isAdult({age}) {
+    return age >= 18
 }
 
 function printProfession(firstWorker) {
