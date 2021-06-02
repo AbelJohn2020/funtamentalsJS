@@ -1,0 +1,14 @@
+{
+  "name": "fundamentals",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AbelJohn2020/funtamentalsJS.git",
+  "author": "Abel AR <abel_john_14@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
