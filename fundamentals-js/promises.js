@@ -9,7 +9,7 @@ function getAperson (id) {
         
         //this is the way to call jQuery
         $
-            .get(url, option, function(data) {
+            .get(url, secondOption, function(data) {
                 resolve(data)
             })
             .fail(() => reject(id))
