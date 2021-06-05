@@ -8,7 +8,7 @@
 
 // __proto__ apunta al protoripo que tiene la funcion que en este caso es el objeto, son todos los metodos que tienen todos los objetos y todos los atributos que tienen todos los objetos
 
-// la herencia como tal no existe en JS no existen clases sino prototipos, existe la herencia prototipada. Y funciona cuando a un objeto de desarrollador como en este caso person se le decia que ejecute el metodo "height" lo qeu iba a hacer era dijarse en el en su prototipo __proto__ si encuentra ese metodo sino lo encuentra ira a buscarlo al prototipo de ese prototipo y asi sucesivameente se pasaran mensajes entre los prototipos hasta ver si alguno lo resuelve. Si ninguno lo llega a resolver llegara hasta object y object tratara de ejecutar ese metodo y sino puede ejecutarlo, se lanzara un error en JS.
+// la herencia como tal no existe en JS no existen clases sino prototipos, existe la herencia prototipada. Y funciona cuando a un objeto de desarrollador como en este caso person se le decia que ejecute el metodo "height" lo que iba a hacer era dijarse en el en su prototipo __proto__ si encuentra ese metodo sino lo encuentra ira a buscarlo al prototipo de ese prototipo y asi sucesivameente se pasaran mensajes entre los prototipos hasta ver si alguno lo resuelve. Si ninguno lo llega a resolver llegara hasta object y object tratara de ejecutar ese metodo y sino puede ejecutarlo, se lanzara un error en JS.
 
 function ComesFrom(sonPrototype, faherPrototype) {
     const fn = function() {};
